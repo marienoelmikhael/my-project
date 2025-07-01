@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #CFE2E9;
+  color: #1a1d1d;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  background: #CFE2E9;
+  z-index: 999;
+  height: 80px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 32px;  /* Match main page */
+  font-weight: 700;
+  color: #3A3B3C;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 52px;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Navbar link style */
+.item {
+  font-size: 16px;
+  font-weight: 700;         /* Make it bold */
+  color: #1a1d1d;
+  padding: 10px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;    /* Remove underline */
+}
+
+.item:hover {
+  background: #D9ED82;
+  transform: scale(1.05);
+}
+
+
+/* Booking Form */
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #F6F8FA;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0F3D4C;
+}
+
+.booking-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.booking-form button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #D9ED82;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #0F3D4C;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.booking-form button:hover {
+  background-color: #c1d962;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0F3D4C;
+  color: #fff;
+  text-align: center;
+  padding: 8px 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  z-index: 10000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #D9ED82;
+  text-decoration: none;
+  margin: 0 4px;
+  transition: color 0.3s ease;
+  font-size: 12px;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.social-links {
+  margin-top: 3px;
+}
