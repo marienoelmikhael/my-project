@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #CFE2E9;
+  font-size: 17px;
+  padding-bottom: 100px; /* Reserve space for sticky footer */
+}
+
+
+ 
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  background: #CFE2E9;
+  z-index: 999;
+  height: 80px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 32px;  /* Match main page */
+  font-weight: 700;
+  color: #3A3B3C;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 52px;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Navbar link style */
+.item {
+  font-size: 16px;
+  font-weight: 700;         /* Make it bold */
+  color: #1a1d1d;
+  padding: 10px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;    /* Remove underline */
+}
+
+.item:hover {
+  background: #D9ED82;
+  transform: scale(1.05);
+}
+
+
+/* Destination List */
+.destination-list {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.destination-list h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #1a1d1d;
+}
+
+.destination-item {
+  background: #F6F8FA;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.destination-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.destination-item .info {
+  padding: 20px;
+}
+
+.destination-item .info h3 {
+  font-size: 22px;
+  color: #3A3B3C;
+  margin-bottom: 10px;
+}
+
+.destination-item .info p {
+  color: #747576;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0F3D4C;
+  color: #fff;
+  text-align: center;
+  padding: 8px 5px; /* reduced from 15px 10px */
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px; /* reduced from 14px */
+  z-index: 10000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #D9ED82;
+  text-decoration: none;
+  margin: 0 4px;
+  transition: color 0.3s ease;
+  font-size: 12px; /* optional: to match text size */
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.social-links {
+  margin-top: 3px; /* reduced from 5px */
+}
