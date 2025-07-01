@@ -19,6 +19,7 @@ To enhance the user experience, a weather feature was integrated using API Ninja
 - Animated Graphics: Airplane and boat animations add a lively touch to the homepage.
 - Weather API Integration: Users can search for a destination and instantly get the current weather conditions.
 - Booking Form: Collects user input such as name, email, destination, and travel dates to simulate a reservation system.
+- sticky footer: containing the social links 
 -booking page
 -trending destination page
 
